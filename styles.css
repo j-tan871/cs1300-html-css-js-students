@@ -5,9 +5,9 @@
 /* Uncomment below if images are way too big.
 Selects all image tags and makes them 500px;
  */
-/*img {*/
-/*  width: 500px;*/
-/*}*/
+img {
+ width: 500px;
+}
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
@@ -18,12 +18,12 @@ Selects all image tags and makes them 500px;
   justify-content: center;
 }
 
-.gallery-item {
+/* .gallery-item {
   height: 200px;
   width: 200px;
   padding: 10px;
   object-fit: cover;
-}
+} */
 
 .gallery-item:hover {
   opacity: 0.7;
